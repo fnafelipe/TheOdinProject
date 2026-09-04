@@ -51,3 +51,8 @@ div {
 #alinhamento {
     text-align: center;
 }
+
+img {
+    height: auto;
+    width: 100px;
+}
