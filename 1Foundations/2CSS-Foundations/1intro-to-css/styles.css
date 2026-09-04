@@ -1,0 +1,53 @@
+selector {
+    property: value;
+}
+
+div {
+    color: blue;
+}
+
+.alert-text {
+    color: red;
+}
+
+#title {
+    color: yellow;
+}
+
+.classe1,
+.classe2 {
+    background-color: pink;
+    color: green;
+}
+
+.classe1 {
+    font-style: italic;
+}
+
+.classe2 {
+    font-size: larger;
+}
+
+#cor {
+    color: blue;
+}
+
+#fundo {
+    background-color: blue;
+}
+
+#familia {
+    font-family: 'Courier New';
+}
+
+#tamanho {
+    font-size: 25px;
+}
+
+#destaque {
+    font-weight: bold;
+}
+
+#alinhamento {
+    text-align: center;
+}
