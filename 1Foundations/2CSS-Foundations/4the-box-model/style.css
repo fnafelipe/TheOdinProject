@@ -1,0 +1,27 @@
+#box {
+    outline: 2px solid red;
+    padding: 15px 5px 2px 2px;
+    border-width: 20px 5px 10px 15px;
+    border-style: groove dashed solid dotted;
+    border-color: pink blue yellow green;
+}
+
+.box1 {
+    box-sizing: content-box;
+    background-color: red;
+    border: 30px solid purple;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 60px auto;
+}
+
+.box2 {
+    box-sizing: border-box;
+    background-color: blue;
+    border: 30px solid green;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 60px auto;
+}

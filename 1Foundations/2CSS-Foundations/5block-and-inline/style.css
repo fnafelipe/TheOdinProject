@@ -1,0 +1,27 @@
+.block {
+    border: 2px solid red;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.inline {
+    border: 2px solid blue;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+.inline-block-element {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+.element1 {
+    background-color: lightblue;
+}
+
+.element2 {
+    background-color: lightgreen;
+}
