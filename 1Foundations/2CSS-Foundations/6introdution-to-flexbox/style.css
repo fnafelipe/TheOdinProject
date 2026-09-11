@@ -1,0 +1,13 @@
+.caixa {
+    display: flex;
+    width: 100px;
+    height: auto;
+}
+
+div {
+    display: flex;
+}
+
+.verde {
+    background-color: greenyellow;
+}
