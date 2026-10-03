@@ -8,5 +8,6 @@ switch (true) {
   case false:
     console.log("False");
     break;
-  default:7
+  default:
+    console.log("Default");
 }
