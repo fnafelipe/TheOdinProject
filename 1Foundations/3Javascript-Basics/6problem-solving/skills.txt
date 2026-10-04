@@ -1,0 +1,83 @@
+FIZZBUZZ
+
+Entendendo
+
+  O que é
+    programa que le o numero de um ususario e inicia uma contagem onde sempre que
+    for um numero divisivel por 3 ele mostra "Fizz" ao inves do numero e quando
+    for um numero divisivel por 5 ele mostra "Buzz" ao inves do numero, e quando
+    for um numero divisivel por 3 e 5 ele mostra "FizzBuzz" ao inves do numero
+    ele faz isso ate chegar no numero que o usuario colocou
+
+Planejando
+
+  como resolver?
+    fazer uma contagem com condicionais a cada numero
+
+  tem interface?
+    todo pelo terminal
+
+  quais os inputs?
+    um numero dado pelo usuario que representa o valor ate onde contagem vai
+
+  quais os outputs?
+    numero, "Fizz", "Buzz" ou "FizzBuzz" dependendo da condição
+
+  quais os passos
+    verificar cada numero da contagem se é divisivel pro 3 ou 5 ou pelos 2
+
+pseudocodigo
+
+  receber entrada do usuario
+  percorrer do 1 ate n
+    se divisivel por 3 e 5
+      retorna "FizzBuzz"
+    se divisivel por 3
+      retorna "Fizz"
+    se divisivel por 5
+      retorna "Buzz"
+    se nenhum dos acima
+      retorna n
+
+divida
+
+  let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+
+  let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+  for (let i = 1; i <= answer; i++) {
+    console.log(i);
+  }
+
+  let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+  for (let i = 1; i <= answer; i++) {
+    if (i % 3 === 0) {
+      console.log("Fizz");
+    } else {
+      console.log(i);
+    }
+  }
+
+  let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+  for (let i = 1; i <= answer; i++) {
+    if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else {
+      console.log(i);
+    }
+  }
+
+  let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+  for (let i = 1; i <= answer; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else {
+      console.log(i);
+    }
+  }
+
