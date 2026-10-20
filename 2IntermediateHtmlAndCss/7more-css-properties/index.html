@@ -1,0 +1,70 @@
+<style>
+  main > div {
+    color: purple;
+  }
+  main > div > div {
+    color: yellow;
+  }
+  .group1 + div {
+    color: red;
+  }
+  .group1 + div + div {
+    color: green;
+  }
+  .group1 ~ div {
+    color: blue;
+  }
+  /* This rule will apply to all links */
+  a {
+    text-decoration: underline;
+  }
+
+  /* This will apply to unvisited links */
+  a:link {
+    color: blue;
+  }
+
+  /* And you guessed it, this applies to all links the user has clicked on */
+  a:visited {
+    color: purple;
+  }
+</style>
+<main class="parent">
+  <div class="child group1">
+    filho1
+    <div class="grand-child group1">neto1</div>
+  </div>
+  <div class="child group2">
+    filho2
+    <div class="grand-child group2">neto2</div>
+  </div>
+  <div class="child group3">
+    filho3
+    <div class="grand-child group3">neto3</div>
+  </div>
+</main>
+
+<style>
+  .emojify::before {
+    content: "😎 😄 🤓";
+  }
+
+  .emojify::after {
+    content: "🤓 😄 😎";
+  }
+  [src] {
+    /* This will target any element that has a src attribute. */
+  }
+
+  img[src] {
+    /* This will only target img elements that have a src attribute. */
+  }
+
+  img[src="puppy.jpg"] {
+    /* This will target img elements with a src attribute that is exactly "puppy.jpg" */
+  }
+</style>
+
+<body>
+  <div>Let's <span class="emojify">emojify</span>this span!</div>
+</body>
